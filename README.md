@@ -13,6 +13,9 @@ Instead of relying on application-side validations, this system enforces fraud d
 
 [![Watch Demo](assets/thumbnail.png)](https://drive.google.com/file/d/1YP23z-2ZWOHe9Ea0Imwl4G5cpfGD-pHw/view?usp=sharing)
 
+
+
+
 ## 🔍 Problem Statement
 
 In real-world banking systems:
@@ -26,6 +29,11 @@ In real-world banking systems:
 Design a centralized fraud detection system that works **independently of application logic** and guarantees enforcement at the data source.
 
 ---
+
+## Flow 
+
+[![Flow](assets/triggers.jpg)]
+
 
 ## 🧠 Design Philosophy
 
