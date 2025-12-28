@@ -72,6 +72,8 @@ The system is built on a small but expressive relational schema. Each table has 
 
 ## 🗄️ Table Schemas
 
+![Data](https://drive.google.com/file/d/1xdsrpcgjv7Qvx4Thx-pbZV4FFj4llou5/view?usp=sharing)
+
 ### 📋 `customers`
 
 Stores customer identity (persona layer).
