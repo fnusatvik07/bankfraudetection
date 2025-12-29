@@ -21,3 +21,26 @@ with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
     server.send_message(msg)
 
 print("✅ Email sent successfully")
+
+
+
+
+def add(a,b):
+    p=a+b
+
+    
+    return p  
+
+
+CREATE OR REPLACE FUNCTION check_order_amount()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NEW.order_amount <= 0 THEN
+        RAISE EXCEPTION 'Order amount must be greater than zero';
+    
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+

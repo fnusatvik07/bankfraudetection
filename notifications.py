@@ -12,7 +12,6 @@ conn.autocommit = True
 cursor = conn.cursor()
 
 def send_email(account_id, message):
-    # For workshop: just print
     print(f"[EMAIL SENT] Account: {account_id} | Message: {message}")
 
 while True:
